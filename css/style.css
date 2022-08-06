@@ -60,11 +60,11 @@ h1 {
 /*-------- for social networks -----------*/
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
     width: 75px;
     text-align: center;
+    font-size: 30px;
     text-decoration: none;
+    padding: 20px;
     color: white;
 }
 
@@ -101,12 +101,12 @@ h1 {
 
 .nav_item a {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    width: 100%;
     text-transform: uppercase;
-    color: white;
     padding: 0 10px;
+    color: white;
 }
 
 .nav_item:hover {
@@ -124,8 +124,8 @@ h1 {
 }
 
 .flex_item {
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -168,9 +168,9 @@ h1 {
 }
 
 .main_post {
+    height: 200px;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
     margin-bottom: 50px;
     background: url('../img/waves.png');
     background-size: cover;
@@ -180,10 +180,10 @@ h1 {
 
 .footer {
     margin-top: 50px;
+    text-align: center;
     padding: 20px 0;
     background-color: #2a44d3;
     color: white;
-    text-align: center;
 }
 
 .footer_container {
